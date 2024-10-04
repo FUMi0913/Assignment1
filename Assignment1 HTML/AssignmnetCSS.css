@@ -1,0 +1,114 @@
+body {
+    background-image: url('Image/Tokyo.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixes the background image in place */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    height: 100vh; /* Ensures the body takes up the full height of the viewport */
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a light background to the boxes */
+    margin: 20px; /* Adds space between boxes */
+    padding: 20px; /* Adds padding inside the boxes */
+    border-radius: 8px; /* Optional: Rounds the corners of the boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow effect */
+}
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Align logo to left, nav to right */
+    align-items: center; /* Vertically center the header content */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo p {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display navigation links horizontally */
+}
+
+.nav-menu li {
+    margin-left: 20px; /* Space between navigation items */
+}
+
+.nav-menu li a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    color: white;
+}
+
+
+
+
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center; 
+}
+
+footer p {
+    margin: 0 0 10px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Center the social links */
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.social-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    color: aqua;
+}
+.float-right {
+    float: right;
+    margin-left: 20px;  /* Adds space between the image and the text */
+    margin-bottom: 10px;
+    border-radius: 10px; /* Optional: Rounded corners for the image */
+    max-width: 200px;    /* Optional: Ensures the image doesn't get too large */
+}
+.float-left {
+    float: right;
+    margin: 10px 5px;
+    width: 150px;
+}
+
+.float-center {
+    float: center;
+    margin: 10px 5px;
+    width: 150px;
+}
